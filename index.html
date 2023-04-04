@@ -9,18 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200;700&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Esteban EmailDev</title>
 
 </head>
 <body>
-    <header id="header-box">
+    <header id="header-box" data-aos="fade-up" >
         <h1>ESTEBAN PORRAS</h1>
         <h3 style="margin:30px; font-size: 18px;">EMAIL DEVELOPER</h3>
         <a class="work-button" href="#work">MY WORK</a>
     </header>
     
-    <div id="work" class="grid-wrapper">
+    <div id="work" class="grid-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
         <div class="item">
             <a href="realestatetemplate.html">
                 <img src="https://i.ibb.co/hgvRxWH/images3.png" alt="Real estate email template">
@@ -44,14 +45,14 @@
     </div>
 
     <div id="aboutme">
-        <div class="aboutme-container">
+        <div class="aboutme-container" data-aos="fade-up" data-aos-offset="400">
             <h2  style="margin:30px">"SIMPLE IS BEST"</h2>
             <p>At its best, email development delivers great-looking emails and an amazing customer
                 experience. That is why I focus on turning design problems into simple, beautiful, and intuitive solutions with your
                 customer in
                 mind.</p>
         </div>
-        <div style="text-align: center;">
+        <div style="text-align: center;" data-aos="fade-up">
             <p>Here's what customers have to say about me</p>
             <svg fill="none" style="padding-top:10px;" stroke="currentColor" strokeWidth={1.25} height="40px" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -60,7 +61,7 @@
         </div>
     </div>
 
-    <div class="carousel-container">
+    <div class="carousel-container" data-aos="fade-up" data-aos-offset="400">
         <h2>Testimonials</h2>
         <div class="embla carousel">
             <div class="embla__container">
@@ -100,7 +101,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script type="text/javascript">
         var emblaNode = document.querySelector('.embla')
         var options = { loop: false }
