@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@200;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Esteban EmailDev</title>
+
+</head>
+<body>
+    <header id="header-box">
+        <h1>ESTEBAN PORRAS</h1>
+        <h3 style="margin:30px; font-size: 18px;">EMAIL DEVELOPER</h3>
+        <a class="work-button" href="#work">MY WORK</a>
+    </header>
+    
+    <div id="work" class="grid-wrapper">
+        <div class="item">
+            <a href="realestatetemplate.html">
+                <img src="https://i.ibb.co/hgvRxWH/images3.png" alt="Real estate email template">
+            </a>
+        </div>
+        <div>
+            <a href="pinknewsletter.html">
+                <img src="https://i.ibb.co/HpfnKkc/images2.png" alt="Pink email newsletter template">
+            </a>
+        </div>
+        <div>
+            <a href="interiornewsletter.html">
+                <img src="https://i.ibb.co/ZYqc6HW/images1.png" alt="Interior design newsletter template">
+            </a>
+        </div>
+        <div>
+            <a href="annandchels.html">
+                <img src="https://i.ibb.co/zbrJzS2/images4-1.png" alt="Email template with gif">
+            </a>
+        </div>
+    </div>
+
+    <div id="aboutme">
+        <div class="aboutme-container">
+            <h2  style="margin:30px">"SIMPLE IS BEST"</h2>
+            <p>At its best, email development delivers great-looking emails and an amazing customer
+                experience. That is why I focus on turning design problems into simple, beautiful, and intuitive solutions with your
+                customer in
+                mind.</p>
+        </div>
+        <div style="text-align: center;">
+            <p>Here's what customers have to say about me</p>
+            <svg fill="none" style="padding-top:10px;" stroke="currentColor" strokeWidth={1.25} height="40px" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+            </svg>
+        </div>
+    </div>
+
+    <div class="carousel-container">
+        <h2>Testimonials</h2>
+        <div class="embla carousel">
+            <div class="embla__container">
+                <div class="embla__slide">
+                    <p>"Esteban was on it to make sure that our client was able to obtain the right deliverable at the right time. If you need
+                        work done right, Esteban will make sure you’re on your way from start to finish."</p>
+                    <h3>MICHAEL P</h3>
+                </div>
+                <div class="embla__slide">
+                    <p>Very happy with Mr. Esteban Porras - very competent and helpful!</p>
+                    <h3>STEPH S</h3>
+                </div>
+                <div class="embla__slide">
+                    <p>"Esteban was very helpful (and cheerful, considering the awful weather!) in understanding what I needed to be done- he
+                    explained all my options clearly and completely. I was pleased with the estimate and we were able to lock in everything
+                    in one visit."</p>
+                    <h3>LAURA O</h3>
+                </div>
+                <div class="embla__slide">
+                    <p>"Very informed and very polite. He was patient with my needs and questions."</p>
+                    <h3>JUST M</h3>
+                </div>
+                <div class="embla__slide">
+                    <p>"Esteban was timely, professional, and well-versed regarding all of the operational components. He quickly identified
+                    our concerns and even identified other services needed to enable a more safe and efficient operation."</p>
+                    <h3>LARRY H</h3>
+                </div>
+                <div class="embla__slide">
+                    <p>"Esteban was great. Courteous and professional, he explained what my options were and got me the best deal possible.
+                    Really appreciate it!"</p>
+                    <h3>EDWARD S</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+        var emblaNode = document.querySelector('.embla')
+        var options = { loop: false }
+
+        var embla = EmblaCarousel(emblaNode, options)
+    </script>
+</body>
+</html>
