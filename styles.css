@@ -164,7 +164,8 @@ img{
     align-items: center;
 }
 .embla__slide p{
-    height:180px;
+    height:300px;
+    max-width: 100%;
 }
 .embla__slide h3{
     font-family: 'Raleway', sans-serif;
@@ -175,7 +176,7 @@ img{
 .embla__container {
     display: flex;
     height: 150px;
-    width: 500px;
+    max-width: 500px;
     cursor:grab;
 }
 
@@ -197,3 +198,4 @@ img{
         grid-template-columns: 1fr;
     }
 }
+
